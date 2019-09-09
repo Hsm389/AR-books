@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingCover", "ReadingCover.csproj", "{7523864B-B40B-25DC-2596-FBB517C8E010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingCover.Plugins", "ReadingCover.Plugins.csproj", "{BEFEB802-EA25-52CD-FCC0-F0BD401C0162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingCover.Editor", "ReadingCover.Editor.csproj", "{C0907077-E410-2AC5-48BF-8F4C5BAF928A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingCover.Editor.Plugins", "ReadingCover.Editor.Plugins.csproj", "{598195C7-C52B-228C-0DA1-82F16CEAD21F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7523864B-B40B-25DC-2596-FBB517C8E010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7523864B-B40B-25DC-2596-FBB517C8E010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7523864B-B40B-25DC-2596-FBB517C8E010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7523864B-B40B-25DC-2596-FBB517C8E010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEFEB802-EA25-52CD-FCC0-F0BD401C0162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFEB802-EA25-52CD-FCC0-F0BD401C0162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFEB802-EA25-52CD-FCC0-F0BD401C0162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFEB802-EA25-52CD-FCC0-F0BD401C0162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0907077-E410-2AC5-48BF-8F4C5BAF928A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0907077-E410-2AC5-48BF-8F4C5BAF928A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0907077-E410-2AC5-48BF-8F4C5BAF928A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0907077-E410-2AC5-48BF-8F4C5BAF928A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598195C7-C52B-228C-0DA1-82F16CEAD21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598195C7-C52B-228C-0DA1-82F16CEAD21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598195C7-C52B-228C-0DA1-82F16CEAD21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598195C7-C52B-228C-0DA1-82F16CEAD21F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
