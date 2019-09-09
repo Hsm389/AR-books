@@ -1,0 +1,386 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp-Editor.dll
+-unsafe
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:Library/ScriptAssemblies/Assembly-CSharp.dll
+-r:Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PerformanceTesting/UnityEngine.PerformanceTesting.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
+-r:C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll
+-r:C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll
+-r:C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll
+-r:C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll
+-r:C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2017_4_3
+-define:UNITY_2017_4
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+Assets/ShaderForge/Editor/InternalResources/Inspectors/ShaderForgeInspector.cs
+Assets/ShaderForge/Editor/InternalResources/Inspectors/ShaderForgeMaterialInspector.cs
+"Assets/ShaderForge/Editor/Source code/Code/_ConnectionGroups/SF_NodeConnectionGroup.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ConnectionGroups/SFNCG_Append.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ConnectionGroups/SFNCG_Arithmetic.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ConnectionGroups/SFNCG_ChannelBlend.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ConnectionGroups/SFNCG_ComponentMask.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ConnectionGroups/SFNCG_MatrixMultiply.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Enums/SF_VarTypeEnums.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Evaluator/_NewSystem/DependencyTree.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Evaluator/Pass_FwdAdd.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Evaluator/SF_Evaluator.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SF_Node.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SF_Node_Arithmetic.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SF_Node_Resizeable.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Abs.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Add.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_AmbientLight.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Append.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ArcCos.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ArcSin.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ArcTan.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ArcTan2.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Bitangent.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Blend.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Ceil.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ChannelBlend.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Clamp.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Clamp01.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Code.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Color.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_CommentBox.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ComponentMask.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ConstantClamp.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ConstantLerp.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Cos.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Cross.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Cubemap.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_DDX.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_DDXY.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_DDY.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Depth.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_DepthBlend.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Desaturate.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Distance.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Divide.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Dot.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_E.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Exp.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_FaceSign.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Final.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Floor.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Fmod.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_FogColor.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Frac.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_FragmentPosition.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Fresnel.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Get.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_HalfVector.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_HsvToRgb.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Hue.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_If.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_InverseLerp.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Length.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Lerp.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_LightAttenuation.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_LightColor.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_LightPosition.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_LightVector.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Log.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Matrix4x4.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Matrix4x4Property.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Max.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Min.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Multiply.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_MultiplyMatrix.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Negate.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Node_Constant.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Noise.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_NormalBlend.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Normalize.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_NormalVector.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ObjectPosition.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ObjectScale.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_OneMinus.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Panner.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Parallax.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Phi.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Pi.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_PixelSize.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Posterize.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Power.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ProjectionParameters.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Reciprocal.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Reflect.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Relay.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_RemapRange.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_RemapRangeAdvanced.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_RgbToHsv.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Root2.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Rotator.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Round.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_SceneColor.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_SceneDepth.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ScreenParameters.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ScreenPos.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Set.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Sign.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Sin.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Slider.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Smoothstep.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Sqrt.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_StaticBranch.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Step.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Subtract.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_SwitchProperty.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Tan.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Tangent.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Tau.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Tex2d.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Tex2dAsset.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_TexCoord.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Time.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ToggleProperty.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Transform.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Transpose.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Trunc.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_UVTile.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ValueProperty.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Vector1.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Vector2.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Vector3.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Vector4.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_Vector4Property.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_VectorProjection.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_VectorRejection.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_VertexColor.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ViewPosition.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ViewReflectionVector.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Nodes/SFN_ViewVector.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ShaderProperties/SF_ShaderProperty.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ShaderProperties/SFP_Branch.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ShaderProperties/SFP_Color.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ShaderProperties/SFP_Cubemap.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ShaderProperties/SFP_Matrix4x4Property.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ShaderProperties/SFP_Slider.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ShaderProperties/SFP_SwitchProperty.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ShaderProperties/SFP_Tex2d.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ShaderProperties/SFP_ToggleProperty.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ShaderProperties/SFP_ValueProperty.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_ShaderProperties/SFP_Vector4Property.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Utility/GUILines.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Utility/SerializableDictionary.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Utility/SF_Blit.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Utility/SF_ColorPicker.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Utility/SF_Debug.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Utility/SF_DraggableSeparator.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Utility/SF_Extensions.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Utility/SF_GUI.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Utility/SF_Link.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Utility/SF_MinMax.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Utility/SF_Resources.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Utility/SF_Styles.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Utility/SF_Tools.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Utility/SF_Web.cs"
+"Assets/ShaderForge/Editor/Source code/Code/_Utility/SF_ZoomArea.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_Dependencies.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_Editor.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_EditorNodeBrowser.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_EditorNodeData.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_EditorNodeView.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_ErrorEntry.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_FeatureChecker.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_InstructionPass.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_NodeConnectionLine.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_NodeConnector.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_NodePreview.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_NodeStatus.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_NodeTreeStatus.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_Parser.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_PassSettings.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_PreviewSettings.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_PreviewWindow.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_SelectionManager.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_Settings.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SF_StatusBox.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SFPS_Category.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SFPSC_Blending.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SFPSC_Console.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SFPSC_Experimental.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SFPSC_Geometry.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SFPSC_Lighting.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SFPSC_Meta.cs"
+"Assets/ShaderForge/Editor/Source code/Code/SFPSC_Properties.cs"
+Assets/Vuforia/Editor/Scripts/OpenSourceInitializer.cs
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll"
+-sdk:2.0
